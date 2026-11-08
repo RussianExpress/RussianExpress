@@ -49,7 +49,7 @@
 
 <h3><code>&nbsp;// featured&nbsp;</code></h3>
 
-<b>MTA:SA Mobile</b> — порт не-сетевой части клиента MTA:SA на Android <sub>(private repo)</sub>
+<b>MTA:SA Mobile</b> — порт клиента MTA:SA на Android <sub>(private repo)</sub>
 
 <p>
   <img src="https://img.shields.io/badge/status-on--device%20working-39FF14?style=for-the-badge&labelColor=040B07&logoColor=040B07" />
