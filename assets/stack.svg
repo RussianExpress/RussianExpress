@@ -1,71 +1,83 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" fill="none">
-  <defs>
+  <rect width="100%" height="100%" fill="#020503"/>
+<defs>
     <linearGradient id="card" x1="0" y1="0" x2="320" y2="380" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#04120A"/>
       <stop offset="1" stop-color="#020503"/>
     </linearGradient>
     <style>
-      .mono { font-family: 'JetBrains Mono','Cascadia Mono',Consolas,monospace; }
+      .mono { font-family: 'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace; }
       .h { fill: #39FF14; font-size: 12px; letter-spacing: 1.6px; }
       .item { fill: #D8FFDD; font-size: 15px; }
       .dot { fill: #B6FF3B; }
       .m { fill: #4C7A5A; font-size: 11px; letter-spacing: 1.2px; }
-      .num { fill: #4C7A5A; font-size: 11px; }
+      .num { fill: #33553F; font-size: 11px; }
     </style>
   </defs>
 
-  <!-- title -->
   <text x="24" y="34" class="mono h">// STACK</text>
   <rect x="24" y="46" width="952" height="1" fill="#123B21"/>
 
   <!-- card 1 -->
   <g>
-    <rect x="24" y="66" width="300" height="286" rx="14" fill="url(#card)" stroke="#123B21"/>
-    <text x="46" y="100" class="mono m">LANGUAGES</text>
-    <rect x="46" y="112" width="256" height="1" fill="#123B21"/>
+    <rect x="24" y="66" width="300" height="252" rx="14" fill="url(#card)" stroke="#123B21"/>
+    <text x="46" y="98" class="mono m">LANGUAGES</text>
+    <rect x="46" y="108" width="256" height="1" fill="#123B21"/>
     <g class="mono">
-      <text x="46" y="146" class="item">C++</text><text x="274" y="146" class="num" text-anchor="end">01</text>
-      <text x="46" y="182" class="item">C</text><text x="274" y="182" class="num" text-anchor="end">02</text>
-      <text x="46" y="218" class="item">JavaScript</text><text x="274" y="218" class="num" text-anchor="end">03</text>
-      <text x="46" y="254" class="item">Assembly / ARM64</text><text x="274" y="254" class="num" text-anchor="end">04</text>
-      <text x="46" y="290" class="item">Lua 5.1</text><text x="274" y="290" class="num" text-anchor="end">05</text>
+      <circle cx="52" cy="130" r="2.5" class="dot"/>
+      <text x="66" y="135" class="item">C++</text><text x="280" y="135" class="num" text-anchor="end">01</text>
+      <circle cx="52" cy="163" r="2.5" class="dot"/>
+      <text x="66" y="168" class="item">C</text><text x="280" y="168" class="num" text-anchor="end">02</text>
+      <circle cx="52" cy="196" r="2.5" class="dot"/>
+      <text x="66" y="201" class="item">JavaScript</text><text x="280" y="201" class="num" text-anchor="end">03</text>
+      <circle cx="52" cy="229" r="2.5" class="dot"/>
+      <text x="66" y="234" class="item">Assembly / ARM64</text><text x="280" y="234" class="num" text-anchor="end">04</text>
+      <circle cx="52" cy="262" r="2.5" class="dot"/>
+      <text x="66" y="267" class="item">Lua 5.1</text><text x="280" y="267" class="num" text-anchor="end">05</text>
     </g>
-    <g class="dot">
-      <circle cx="46" cy="132" r="2"/><circle cx="46" cy="168" r="2"/><circle cx="46" cy="204" r="2"/><circle cx="46" cy="240" r="2"/><circle cx="46" cy="276" r="2"/>
-    </g>
+    <rect x="46" y="286" width="256" height="1" fill="#123B21"/>
+    <text x="46" y="305" class="mono" font-size="10" fill="#33553F">5 entries</text>
   </g>
 
   <!-- card 2 -->
   <g>
-    <rect x="350" y="66" width="300" height="286" rx="14" fill="url(#card)" stroke="#123B21"/>
-    <text x="372" y="100" class="mono m">REVERSE ENGINEERING</text>
-    <rect x="372" y="112" width="256" height="1" fill="#123B21"/>
+    <rect x="350" y="66" width="300" height="252" rx="14" fill="url(#card)" stroke="#123B21"/>
+    <text x="372" y="98" class="mono m">REVERSE ENGINEERING</text>
+    <rect x="372" y="108" width="256" height="1" fill="#123B21"/>
     <g class="mono">
-      <text x="372" y="146" class="item">IDA Pro</text><text x="600" y="146" class="num" text-anchor="end">01</text>
-      <text x="372" y="182" class="item">Ghidra</text><text x="600" y="182" class="num" text-anchor="end">02</text>
-      <text x="372" y="218" class="item">Frida</text><text x="600" y="218" class="num" text-anchor="end">03</text>
-      <text x="372" y="254" class="item">LLVM / objdump</text><text x="600" y="254" class="num" text-anchor="end">04</text>
-      <text x="372" y="290" class="item">ABI archaeology</text><text x="600" y="290" class="num" text-anchor="end">05</text>
+      <circle cx="378" cy="130" r="2.5" class="dot"/>
+      <text x="392" y="135" class="item">IDA Pro</text><text x="606" y="135" class="num" text-anchor="end">01</text>
+      <circle cx="378" cy="163" r="2.5" class="dot"/>
+      <text x="392" y="168" class="item">Ghidra</text><text x="606" y="168" class="num" text-anchor="end">02</text>
+      <circle cx="378" cy="196" r="2.5" class="dot"/>
+      <text x="392" y="201" class="item">Frida</text><text x="606" y="201" class="num" text-anchor="end">03</text>
+      <circle cx="378" cy="229" r="2.5" class="dot"/>
+      <text x="392" y="234" class="item">LLVM / objdump</text><text x="606" y="234" class="num" text-anchor="end">04</text>
+      <circle cx="378" cy="262" r="2.5" class="dot"/>
+      <text x="392" y="267" class="item">ABI archaeology</text><text x="606" y="267" class="num" text-anchor="end">05</text>
     </g>
-    <g class="dot">
-      <circle cx="372" cy="132" r="2"/><circle cx="372" cy="168" r="2"/><circle cx="372" cy="204" r="2"/><circle cx="372" cy="240" r="2"/><circle cx="372" cy="276" r="2"/>
-    </g>
+    <rect x="372" y="286" width="256" height="1" fill="#123B21"/>
+    <text x="372" y="305" class="mono" font-size="10" fill="#33553F">5 entries</text>
   </g>
 
   <!-- card 3 -->
   <g>
-    <rect x="676" y="66" width="300" height="286" rx="14" fill="url(#card)" stroke="#39FF14" stroke-opacity="0.55"/>
-    <text x="698" y="100" class="mono m">PLATFORM</text>
-    <rect x="698" y="112" width="256" height="1" fill="#123B21"/>
+    <rect x="676" y="66" width="300" height="252" rx="14" fill="url(#card)" stroke="#39FF14" stroke-opacity="0.55"/>
+    <text x="698" y="98" class="mono m">PLATFORM</text>
+    <rect x="698" y="108" width="256" height="1" fill="#123B21"/>
     <g class="mono">
-      <text x="698" y="146" class="item">Android NDK</text><text x="926" y="146" class="num" text-anchor="end">01</text>
-      <text x="698" y="182" class="item">JNI</text><text x="926" y="182" class="num" text-anchor="end">02</text>
-      <text x="698" y="218" class="item">CMake</text><text x="926" y="218" class="num" text-anchor="end">03</text>
-      <text x="698" y="254" class="item">CEGUI / GLES2</text><text x="926" y="254" class="num" text-anchor="end">04</text>
-      <text x="698" y="290" class="item">GTA:SA · MTA:SA</text><text x="926" y="290" class="num" text-anchor="end">05</text>
+      <circle cx="704" cy="130" r="2.5" class="dot"/>
+      <text x="718" y="135" class="item">Android NDK</text><text x="932" y="135" class="num" text-anchor="end">01</text>
+      <circle cx="704" cy="163" r="2.5" class="dot"/>
+      <text x="718" y="168" class="item">JNI</text><text x="932" y="168" class="num" text-anchor="end">02</text>
+      <circle cx="704" cy="196" r="2.5" class="dot"/>
+      <text x="718" y="201" class="item">CMake</text><text x="932" y="201" class="num" text-anchor="end">03</text>
+      <circle cx="704" cy="229" r="2.5" class="dot"/>
+      <text x="718" y="234" class="item">CEGUI / GLES2</text><text x="932" y="234" class="num" text-anchor="end">04</text>
+      <circle cx="704" cy="262" r="2.5" class="dot"/>
+      <text x="718" y="267" class="item">GTA:SA · MTA:SA</text><text x="932" y="267" class="num" text-anchor="end">05</text>
     </g>
-    <g class="dot">
-      <circle cx="698" cy="132" r="2"/><circle cx="698" cy="168" r="2"/><circle cx="698" cy="204" r="2"/><circle cx="698" cy="240" r="2"/><circle cx="698" cy="276" r="2"/>
-    </g>
+    <rect x="698" y="286" width="256" height="1" fill="#123B21"/>
+    <text x="698" y="305" class="mono" font-size="10" fill="#33553F">5 entries</text>
   </g>
 </svg>

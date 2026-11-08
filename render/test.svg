@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" fill="none">
+  <rect width="600" height="220" fill="#020503"/>
+  <style>.mono { font-family: 'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace; }</style>
+  <g class="mono">
+    <text x="20" y="40" font-size="17" font-weight="600" fill="#E8FFE9">A bold600 E8FFE9</text>
+    <text x="20" y="80" font-size="17" font-weight="400" fill="#E8FFE9">B normal400 E8FFE9</text>
+    <text x="20" y="120" font-size="17" font-weight="600" fill="#6E9B7A">C bold600 6E9B7A</text>
+    <text x="20" y="160" font-size="17" font-weight="700" fill="#39FF14">D bold700 39FF14</text>
+    <text x="20" y="200" font-size="12" fill="#7FB88F">E small 7FB88F</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" fill="none">
+  <rect width="1000" height="480" fill="#020503"/>
+  <style>.mono { font-family: 'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace; }</style>
+  <g class="mono">
+    <circle cx="71" cy="194" r="8" fill="#39FF14"/>
+    <text x="104" y="190" font-size="12" letter-spacing="1.4" fill="#39FF14">M7</text>
+    <text x="104" y="214" font-size="17" font-weight="600" fill="#E8FFE9">HUD · CEGUI · Lua</text>
+    <text x="104" y="234" font-size="12" fill="#7FB88F">eglSwapBuffers hook · MTA skin · Lua 5.1 · tap input — on device</text>
+  </g>
+</svg>

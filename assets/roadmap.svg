@@ -1,70 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" fill="none">
-  <defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" fill="none">
+  <rect width="100%" height="100%" fill="#020503"/>
+<defs>
+    <linearGradient id="line" x1="0" y1="0" x2="0" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39FF14"/>
+      <stop offset="0.62" stop-color="#39FF14" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#39FF14" stop-opacity="0"/>
+    </linearGradient>
     <style>
-      .mono { font-family: 'JetBrains Mono','Cascadia Mono',Consolas,monospace; }
-      .h { fill: #39FF14; font-size: 12px; letter-spacing: 1.6px; }
-      .t { fill: #D8FFDD; font-size: 13px; }
-      .m { fill: #4C7A5A; font-size: 11px; letter-spacing: 1.2px; }
-      .s { fill: #6E9B7A; font-size: 11px; }
+      .mono { font-family: 'JetBrains Mono','Cascadia Mono',Consolas,'Courier New',monospace; }
     </style>
   </defs>
 
-  <text x="24" y="34" class="mono h">// ROADMAP</text>
+  <text x="24" y="34" class="mono" font-size="12" letter-spacing="1.6" fill="#39FF14">// ROADMAP</text>
   <rect x="24" y="46" width="952" height="1" fill="#123B21"/>
 
-  <!-- track -->
-  <rect x="70" y="132" width="860" height="2" fill="#123B21"/>
-  <rect x="70" y="132" width="640" height="2" fill="#39FF14" opacity="0.55"/>
+  <!-- vertical track -->
+  <rect x="70" y="92" width="2" height="330" fill="url(#line)"/>
 
-  <!-- node 1 done -->
-  <g>
-    <circle cx="70" cy="133" r="9" fill="#39FF14"/>
-    <circle cx="70" cy="133" r="15" fill="#39FF14" opacity="0.12"/>
-    <text x="70" y="110" class="mono s" text-anchor="middle">M1 — M6</text>
-    <text x="70" y="175" class="mono t" text-anchor="middle">engine bridge</text>
-    <text x="70" y="195" class="mono m" text-anchor="middle">proxy · crypto · identity</text>
+  <!-- M1-M6 -->
+  <g class="mono">
+    <circle cx="71" cy="110" r="8" fill="#39FF14"/>
+    <circle cx="71" cy="110" r="15" fill="#39FF14" opacity="0.10"/>
+    <text x="104" y="106" font-size="12" letter-spacing="1.4" fill="#39FF14">M1 — M6</text>
+    <text x="104" y="130" font-size="17" font-weight="600" fill="#E8FFE9">Engine bridge</text>
+    <text x="104" y="150" font-size="12" fill="#7FB88F">libGame.so proxy · 22 357 exports · crypto · identity · phone runtime</text>
   </g>
 
-  <!-- node 2 done -->
-  <g>
-    <circle cx="285" cy="133" r="9" fill="#39FF14"/>
-    <text x="285" y="110" class="mono s" text-anchor="middle">M7</text>
-    <text x="285" y="175" class="mono t" text-anchor="middle">HUD · CEGUI · Lua</text>
-    <text x="285" y="195" class="mono m" text-anchor="middle">on-device working</text>
+  <!-- M7 -->
+  <g class="mono">
+    <circle cx="71" cy="194" r="8" fill="#39FF14"/>
+    <text x="104" y="190" font-size="12" letter-spacing="1.4" fill="#39FF14">M7</text>
+    <text x="104" y="214" font-size="17" font-weight="600" fill="#E8FFE9">HUD · CEGUI · Lua</text>
+    <text x="104" y="234" font-size="12" fill="#7FB88F">eglSwapBuffers hook · MTA skin · Lua 5.1 · tap input — on device</text>
   </g>
 
-  <!-- node 3 done -->
-  <g>
-    <circle cx="500" cy="133" r="9" fill="#39FF14"/>
-    <text x="500" y="110" class="mono s" text-anchor="middle">M8</text>
-    <text x="500" y="175" class="mono t" text-anchor="middle">game_android</text>
-    <text x="500" y="195" class="mono m" text-anchor="middle">CGame · CPed · CWorld</text>
+  <!-- M8 -->
+  <g class="mono">
+    <circle cx="71" cy="278" r="8" fill="#39FF14"/>
+    <text x="104" y="274" font-size="12" letter-spacing="1.4" fill="#39FF14">M8</text>
+    <text x="104" y="298" font-size="17" font-weight="600" fill="#E8FFE9">game_android</text>
+    <text x="104" y="318" font-size="12" fill="#7FB88F">CGame · CClock · CPed · CWorld · CStreaming · money / health / armour</text>
   </g>
 
-  <!-- node 4 partial -->
-  <g>
-    <circle cx="710" cy="133" r="9" fill="#020503" stroke="#39FF14" stroke-width="2"/>
-    <path d="M710 124 A9 9 0 0 1 710 142 Z" fill="#39FF14"/>
-    <text x="710" y="110" class="mono s" text-anchor="middle">M9</text>
-    <text x="710" y="175" class="mono t" text-anchor="middle">client logic</text>
-    <text x="710" y="195" class="mono m" text-anchor="middle">7 / 225 files</text>
+  <!-- M9 in progress -->
+  <g class="mono">
+    <circle cx="71" cy="362" r="8" fill="#020503" stroke="#39FF14" stroke-width="2"/>
+    <path d="M71 352 A10 10 0 0 1 71 372 Z" fill="#39FF14"/>
+    <text x="104" y="358" font-size="12" letter-spacing="1.4" fill="#39FF14">M9 — IN PROGRESS</text>
+    <text x="104" y="382" font-size="17" font-weight="600" fill="#E8FFE9">MTA client logic</text>
+    <text x="104" y="402" font-size="12" fill="#7FB88F">7 / 225 sources compiled on the Android StdInc shim</text>
   </g>
 
-  <!-- node 5 next -->
-  <g>
-    <circle cx="925" cy="133" r="9" fill="#020503" stroke="#4C7A5A" stroke-width="2"/>
-    <text x="925" y="110" class="mono s" text-anchor="middle">NEXT</text>
-    <text x="925" y="175" class="mono t" text-anchor="middle">full logic + sync</text>
-    <text x="925" y="195" class="mono m" text-anchor="middle">pending</text>
+  <!-- next -->
+  <g class="mono">
+    <circle cx="71" cy="438" r="8" fill="#020503" stroke="#4C7A5A" stroke-width="2"/>
+    <text x="104" y="434" font-size="12" letter-spacing="1.4" fill="#4C7A5A">NEXT</text>
+    <text x="104" y="458" font-size="17" font-weight="600" fill="#6E9B7A">Full client logic + sync</text>
   </g>
 
   <!-- legend -->
-  <g class="mono s" font-size="11">
-    <circle cx="30" cy="236" r="4" fill="#39FF14"/>
-    <text x="42" y="240">done</text>
-    <circle cx="106" cy="236" r="4" fill="#020503" stroke="#39FF14" stroke-width="2"/>
-    <text x="118" y="240">in progress</text>
-    <circle cx="224" cy="236" r="4" fill="#020503" stroke="#4C7A5A" stroke-width="2"/>
-    <text x="236" y="240">next</text>
+  <g class="mono" font-size="11" fill="#7FB88F">
+    <circle cx="800" cy="72" r="4" fill="#39FF14"/>
+    <text x="812" y="76">done</text>
+    <circle cx="868" cy="72" r="4" fill="#020503" stroke="#39FF14" stroke-width="2"/>
+    <text x="880" y="76">now</text>
+    <circle cx="930" cy="72" r="4" fill="#020503" stroke="#4C7A5A" stroke-width="2"/>
+    <text x="942" y="76">next</text>
   </g>
 </svg>

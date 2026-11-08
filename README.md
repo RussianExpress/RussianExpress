@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/badge/GTA%3ASA%202.11.311-arm64--v8-39FF14?style=for-the-badge&labelColor=040B07&logo=android&logoColor=040B07" />
 </p>
 
-<img src="assets/hero.jpg" width="90%" alt="MTA:SA Mobile на телефоне: HUD, чат, CEGUI-скин MTA, РПГ и деньги через SDK" />
+<img src="assets/featured.png" width="96%" alt="MTA:SA Mobile на телефоне: HUD, чат, CEGUI-скин MTA, РПГ и деньги через SDK" />
 
 <sub>HUD · чат · CEGUI-скин MTA · РПГ · деньги через SDK — OnePlus 15, живой кадр</sub>
 
