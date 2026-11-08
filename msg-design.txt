@@ -1,0 +1,22 @@
+profile: designer pass — banner, stack, roadmap, device card, screenshot
+
+Полная переработка профиля в единой дизайн-системе «чёрный + кислотный
+зелёный» (#39FF14 / #B6FF3B / #00E676, фон #020503):
+
+- banner.svg: анимированная scanline по сетке, чип WHOAMI / PROFILE,
+  имя, стек-чипы, терминал с git log проекта и мигающим курсором,
+  hazard-полоса внизу;
+- stack.svg: три карточки (languages / reverse engineering / platform)
+  с нумерацией как в терминале;
+- whoami.svg: окно с промптами, мигающим курсором и панелью SYSTEM
+  (status, phone, memory 16/512, engine);
+- roadmap.svg: таймлайн M1–M6 → M7 → M8 → M9 (7/225) → next,
+  с легендой done / in progress / next;
+- devices.svg: карточка тестового устройства OnePlus 15 (CPH2749),
+  16/512 GB, Android 16, arm64-v8a, libGame.so;
+- divider.svg: тонкая линия с бегущими hazard-полосами;
+- assets/hero.jpg: живой скриншот стека в разделе featured;
+- README: секции banner → stack → whoami → featured (со скриншотом)
+  → roadmap → devices → telemetry → контакты.
+
+Правка текста featured, сделанная пользователем на GitHub, сохранена.
