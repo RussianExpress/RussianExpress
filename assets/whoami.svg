@@ -23,7 +23,7 @@
 
   <g class="mono" font-size="15">
     <text x="28" y="42" class="k">$ whoami</text>
-    <text x="28" y="70" class="s">wh3baby — reverse engineer &amp; mobile native developer</text>
+    <text x="28" y="70" class="s">russianexpress — reverse engineer &amp; mobile native developer</text>
 
     <text x="28" y="110" class="k">$ cat /etc/skills</text>
     <text x="28" y="136" class="s">C++  ·  C  ·  JavaScript  ·  Assembly (ARM64 / Thumb-2)</text>

@@ -33,17 +33,17 @@
 
   <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
 
-  <text x="64" y="126" font-family="'JetBrains Mono','Cascadia Mono',Consolas,monospace" font-size="86" font-weight="700" fill="#E8FFE9">wh3baby</text>
+  <text x="64" y="126" font-family="'JetBrains Mono','Cascadia Mono',Consolas,monospace" font-size="64" font-weight="700" fill="#E8FFE9">RussianExpress</text>
   <text x="66" y="172" font-family="'JetBrains Mono','Cascadia Mono',Consolas,monospace" font-size="22" font-weight="500" fill="url(#accent)">c++ / c / javascript / assembly / reverse engineering</text>
 
   <g font-family="'JetBrains Mono','Cascadia Mono',Consolas,monospace" font-size="15">
     <rect x="64" y="206" width="520" height="34" rx="8" fill="#040B07" stroke="#0F3A20"/>
     <circle cx="86" cy="223" r="5" fill="#39FF14"/>
-    <text x="102" y="229" fill="#7FA98A">$ nm -C libwh3baby.so --defined-only</text>
-    <text x="82" y="268" fill="#D8FFDD">wh3baby::cpp::engine</text>
-    <text x="330" y="268" fill="#D8FFDD">wh3baby::js::browser</text>
-    <text x="82" y="294" fill="#D8FFDD">wh3baby::asm::hooks</text>
-    <text x="330" y="294" fill="#D8FFDD">wh3baby::re::ida</text>
+    <text x="102" y="229" fill="#7FA98A">$ nm -C librussianexpress.so --defined-only</text>
+    <text x="82" y="268" fill="#D8FFDD">russianexpress::cpp::engine</text>
+    <text x="330" y="268" fill="#D8FFDD">russianexpress::js::browser</text>
+    <text x="82" y="294" fill="#D8FFDD">russianexpress::asm::hooks</text>
+    <text x="330" y="294" fill="#D8FFDD">russianexpress::re::ida</text>
   </g>
 
   <g transform="translate(700 78)">

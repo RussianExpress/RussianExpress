@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="wh3baby — c++ / c / javascript / assembly / reverse engineering" />
+<img src="assets/banner.svg" width="100%" alt="russianexpress — c++ / c / javascript / assembly / reverse engineering" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=800&color=39FF14&center=true&vCenter=true&width=900&height=44&lines=Reverse+engineering+GTA%3ASA+mobile%2C+byte+by+byte;C%2B%2B+%2F+C+%2F+ARM64+%2F+Thumb-2;C+and+JavaScript+when+the+tool+needs+a+face;Android+native%3A+JNI%2C+NDK%2C+libGame.so;%2F%2F+TODO%3A+sleep()" alt="what i do" />
 
@@ -43,7 +43,7 @@
 
 <h3><code>&nbsp;// whoami&nbsp;</code></h3>
 
-<img src="assets/whoami.svg" width="92%" alt="wh3baby::reverse_engineering, wh3baby::cpp, wh3baby::asm_hooks, wh3baby::android_native, wh3baby::js_tools" />
+<img src="assets/whoami.svg" width="92%" alt="russianexpress::reverse_engineering, russianexpress::cpp, russianexpress::asm_hooks, russianexpress::android_native, russianexpress::js_tools" />
 
 <img src="assets/divider.svg" width="90%" alt="" />
 
@@ -77,7 +77,7 @@
 <img src="assets/divider.svg" width="90%" alt="" />
 
 <p>
-  <a href="https://t.me/wh3baby"><img src="https://img.shields.io/badge/Telegram-@wh3baby-040B07?style=for-the-badge&logo=telegram&logoColor=39FF14" alt="Telegram" /></a>
+  <a href="https://t.me/wh3baby"><img src="https://img.shields.io/badge/Telegram-040B07?style=for-the-badge&logo=telegram&logoColor=39FF14" alt="Telegram" /></a>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RussianExpress.RussianExpress&left_color=%23040B07&right_color=%2339FF14&left_text=VISITORS" alt="visitors" />
 </p>
 
